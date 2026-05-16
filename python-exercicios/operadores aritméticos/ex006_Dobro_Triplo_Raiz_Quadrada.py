@@ -6,4 +6,4 @@ raiz_quatrada = numero ** 0.5
 
 print(f"O dobro de {numero} vale {dobro}.")
 print(f"O triplo de {numero} vale {triplo}.")
-print(f"A raiz quadrada de {numero}é igual a {raiz_quatrada:.2f}.")
+print(f"A raiz quadrada de {numero} é igual a {raiz_quatrada:.2f}.")
