@@ -1,4 +1,4 @@
-from math import floor
+from math import trunc
 numero = float(input("Digite um valor: "))
-inteiro = floor(numero)
+inteiro = trunc(numero)
 print(f"O Valor digitado foi {numero} e a sua porção inteira é {inteiro}")
