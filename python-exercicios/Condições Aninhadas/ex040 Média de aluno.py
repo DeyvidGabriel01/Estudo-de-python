@@ -8,7 +8,7 @@ media_final = (primeira_nota + segunda_nota + terceira_nota + quarta_nota) / 4
 print(F"Sua média final é {media_final:.1F}")
 if media_final < 5.0:
     print("\033[31mO aluno está REPROVADO.\033[m")
-elif media_final >= 5.0 and media_final < 7.0:
+elif 7 > media_final >= 5:
     print("\033[33mO aluno está de RECUPERAÇÃO.\033[m")
 else:
     print("\033[32mO aluno está APROVADO.\033[m")
