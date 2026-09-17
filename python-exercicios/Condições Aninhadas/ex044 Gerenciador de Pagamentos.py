@@ -22,4 +22,6 @@ elif opção == 4:
     parcelas = juros / numeros_parcelas
     print(f"Sua compra será parcelada em {numeros_parcelas}X de R${parcelas:.2f} COM JUROS")
     print(f"Sua compra de R${produto:.2f} vai custar R${juros:.2f} no final.")
+else:
+    print("não existe essa opção!")
 print("="*42)
