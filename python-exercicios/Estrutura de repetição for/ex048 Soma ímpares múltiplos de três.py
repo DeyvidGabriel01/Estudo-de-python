@@ -7,3 +7,12 @@ for numero in range(1, 501):
         contador += 1
 print(f"Soma de todos os {contador} valores solicitados é {soma}")
 print("="*38)
+
+# outra solução 
+soma = 0 
+cont = 0
+for c in range(1, 501, 2):
+    if c % 3 == 0:
+        cont += 1
+        soma += c
+print(f"A soma de todos os {cont} valores solicitados é {soma}")
